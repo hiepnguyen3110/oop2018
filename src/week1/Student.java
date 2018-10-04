@@ -11,25 +11,25 @@ public class Student {
     public String getName(){
         return name;
     }
-    public String setName(String name){
+    public void setName(String name){
         this.name = name;
     }
     public String getId(){
         return Id;
     }
-    public String setId( String Id ){
+    public void setId( String Id ){
         this.Id = Id;
     }
     public String getGroup(){
         return group;
     }
-    public String setGroup(String group){
+    public void setGroup(String group){
         this.group = group;
     }
     public String getEmail(){
         return email;
     }
-    public String setEmail( String email ){
+    public void setEmail( String email ){
         this.email = email;
     }
     

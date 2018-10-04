@@ -15,13 +15,13 @@ class meo{
     public void setmau(String mau){
         this.mau = mau;
     }
-    public String getCannang(){
+    public float getCannang(){
        return this.canNang;
     }
     public void setCannang(float can){
         this.canNang = can;
     }
-    public String getTuoi(){
+    public int getTuoi(){
        return this.tuoi;
     }
     public void setTuoi(int tuoi){
@@ -40,13 +40,13 @@ class nguoi{
     public void setQuoctich(String quoctich){
         this.quoctich = quoctich;
     }
-    public String getchieucao(){
+    public int getchieucao(){
        return this.chieucao;
     }
     public void setchieucao(int chieucao){
         this.chieucao = chieucao;
     }
-    public String getTuoi(){
+    public int getTuoi(){
        return this.tuoi;
     }
     public void setTuoi(int tuoi){

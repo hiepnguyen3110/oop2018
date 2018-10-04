@@ -74,7 +74,7 @@ public class Fraction {
         Fraction other = (Fraction)obj;
         int a = this.getNumerator() * other.getDenominator();//tử số this nhân mẫu obj
         int b = this.getDenominator() * other.getNumerator();// mẫu số nhân tử số
-        if(a == b) return 1;
-        else return 0;
+        if(a == b) return true;
+        else return false;
     }
 }
